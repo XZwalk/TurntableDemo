@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		FE06DF6F1CC2755600BFE202 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06DF6E1CC2755600BFE202 /* main.m */; };
-		FE06DF721CC2755600BFE202 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06DF711CC2755600BFE202 /* AppDelegate.m */; };
-		FE06DF751CC2755600BFE202 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06DF741CC2755600BFE202 /* ViewController.m */; };
-		FE06DF781CC2755600BFE202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE06DF761CC2755600BFE202 /* Main.storyboard */; };
 		FE06DF7A1CC2755600BFE202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE06DF791CC2755600BFE202 /* Assets.xcassets */; };
 		FE06DF7D1CC2755600BFE202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE06DF7B1CC2755600BFE202 /* LaunchScreen.storyboard */; };
+		FE06DF8D1CC2758000BFE202 /* NYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06DF851CC2758000BFE202 /* NYAppDelegate.m */; };
+		FE06DF8E1CC2758000BFE202 /* NYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06DF871CC2758000BFE202 /* NYViewController.m */; };
+		FE06DF8F1CC2758000BFE202 /* NYWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06DF891CC2758000BFE202 /* NYWheel.m */; };
+		FE06DF901CC2758000BFE202 /* NYWheel.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE06DF8A1CC2758000BFE202 /* NYWheel.xib */; };
+		FE06DF911CC2758000BFE202 /* NYWheelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06DF8C1CC2758000BFE202 /* NYWheelButton.m */; };
+		FE06DF931CC2767D00BFE202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE06DF921CC2767D00BFE202 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FE06DF6A1CC2755600BFE202 /* TurntableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurntableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE06DF6E1CC2755600BFE202 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FE06DF701CC2755600BFE202 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FE06DF711CC2755600BFE202 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FE06DF731CC2755600BFE202 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FE06DF741CC2755600BFE202 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FE06DF771CC2755600BFE202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE06DF791CC2755600BFE202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE06DF7C1CC2755600BFE202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE06DF7E1CC2755600BFE202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE06DF841CC2758000BFE202 /* NYAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYAppDelegate.h; sourceTree = "<group>"; };
+		FE06DF851CC2758000BFE202 /* NYAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYAppDelegate.m; sourceTree = "<group>"; };
+		FE06DF861CC2758000BFE202 /* NYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYViewController.h; sourceTree = "<group>"; };
+		FE06DF871CC2758000BFE202 /* NYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYViewController.m; sourceTree = "<group>"; };
+		FE06DF881CC2758000BFE202 /* NYWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYWheel.h; sourceTree = "<group>"; };
+		FE06DF891CC2758000BFE202 /* NYWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYWheel.m; sourceTree = "<group>"; };
+		FE06DF8A1CC2758000BFE202 /* NYWheel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NYWheel.xib; sourceTree = "<group>"; };
+		FE06DF8B1CC2758000BFE202 /* NYWheelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYWheelButton.h; sourceTree = "<group>"; };
+		FE06DF8C1CC2758000BFE202 /* NYWheelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYWheelButton.m; sourceTree = "<group>"; };
+		FE06DF921CC2767D00BFE202 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,11 @@
 		FE06DF6C1CC2755600BFE202 /* TurntableDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FE06DF701CC2755600BFE202 /* AppDelegate.h */,
-				FE06DF711CC2755600BFE202 /* AppDelegate.m */,
-				FE06DF731CC2755600BFE202 /* ViewController.h */,
-				FE06DF741CC2755600BFE202 /* ViewController.m */,
-				FE06DF761CC2755600BFE202 /* Main.storyboard */,
+				FE06DF841CC2758000BFE202 /* NYAppDelegate.h */,
+				FE06DF851CC2758000BFE202 /* NYAppDelegate.m */,
+				FE06DF921CC2767D00BFE202 /* Main.storyboard */,
+				FE06DF951CC276D000BFE202 /* Controller */,
+				FE06DF941CC276B300BFE202 /* View */,
 				FE06DF791CC2755600BFE202 /* Assets.xcassets */,
 				FE06DF7B1CC2755600BFE202 /* LaunchScreen.storyboard */,
 				FE06DF7E1CC2755600BFE202 /* Info.plist */,
@@ -77,6 +85,27 @@
 				FE06DF6E1CC2755600BFE202 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE06DF941CC276B300BFE202 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE06DF881CC2758000BFE202 /* NYWheel.h */,
+				FE06DF891CC2758000BFE202 /* NYWheel.m */,
+				FE06DF8A1CC2758000BFE202 /* NYWheel.xib */,
+				FE06DF8B1CC2758000BFE202 /* NYWheelButton.h */,
+				FE06DF8C1CC2758000BFE202 /* NYWheelButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FE06DF951CC276D000BFE202 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE06DF861CC2758000BFE202 /* NYViewController.h */,
+				FE06DF871CC2758000BFE202 /* NYViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +166,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE06DF901CC2758000BFE202 /* NYWheel.xib in Resources */,
 				FE06DF7D1CC2755600BFE202 /* LaunchScreen.storyboard in Resources */,
 				FE06DF7A1CC2755600BFE202 /* Assets.xcassets in Resources */,
-				FE06DF781CC2755600BFE202 /* Main.storyboard in Resources */,
+				FE06DF931CC2767D00BFE202 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE06DF751CC2755600BFE202 /* ViewController.m in Sources */,
-				FE06DF721CC2755600BFE202 /* AppDelegate.m in Sources */,
+				FE06DF911CC2758000BFE202 /* NYWheelButton.m in Sources */,
+				FE06DF8D1CC2758000BFE202 /* NYAppDelegate.m in Sources */,
+				FE06DF8F1CC2758000BFE202 /* NYWheel.m in Sources */,
+				FE06DF8E1CC2758000BFE202 /* NYViewController.m in Sources */,
 				FE06DF6F1CC2755600BFE202 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,14 +191,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FE06DF761CC2755600BFE202 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE06DF771CC2755600BFE202 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FE06DF7B1CC2755600BFE202 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
